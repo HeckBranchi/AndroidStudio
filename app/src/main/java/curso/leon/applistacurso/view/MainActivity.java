@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        controller = new PessoaController();
+        Object pessoa2;
+        controller = new PessoaController(pessoa2);
         pessoa = new Pessoa();
 
         pessoa.setNomeCurso("Programação Dispositivos Móveis");
